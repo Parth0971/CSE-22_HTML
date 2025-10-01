@@ -1,0 +1,8 @@
+Bitwise operators:
+    Bitwise AND operator &
+    Bitwise OR operator |
+    Bitwise NOT operator ~
+    Bitwise XOR operator ^
+    Bitwise Leftshift <<
+    Bitwise Rightshift >>
+    
