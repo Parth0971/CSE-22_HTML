@@ -1,0 +1,38 @@
+.title
+{
+    text-align: center;
+}
+.highlight
+{
+    background: #3498db;
+    color: white;
+    padding: 10px;
+    margin: 2px 0;
+}
+.inline {
+    display: inline;
+    background: #2ecc71;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.inlineBlock
+{
+    display: inline-block;
+    background: #9b59b6;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.float
+{
+    float: left;
+    background: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.navbar
+{
+    margin-bottom: 20px;
+}
