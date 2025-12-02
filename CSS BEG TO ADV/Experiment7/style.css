@@ -9,7 +9,8 @@
     padding: 10px;
     margin: 2px 0;
 }
-.inline {
+.inline
+{
     display: inline;
     background: #2ecc71;
     color: white;
