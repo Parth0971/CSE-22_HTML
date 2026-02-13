@@ -402,3 +402,102 @@ body {
   color: #007185;
   text-decoration: none;
 }
+.shop-card a {
+  display: inline-block;
+  margin-top: 0.9375rem;
+  font-size: 0.875rem; 
+  color: #007185;
+  text-decoration: none;
+}
+
+
+.recommend-section {
+  background: white;
+  margin: 1.25rem;
+  padding: 1.25rem;
+}
+
+.recommend-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.recommend-header h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.recommend-header a {
+  font-size: 0.9rem;
+  color: #007185;
+  text-decoration: none;
+}
+
+.recommend-slider {
+  display: flex;
+  gap: -0.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 0.5rem;
+}
+
+.recommend-slider::-webkit-scrollbar {
+  height: 6px;
+}
+
+.recommend-slider::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.recommend-item {
+  flex: 0 0 auto;
+  width: 16rem;
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.recommend-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.recommend-item:hover img {
+  transform: scale(1.05);
+}
+
+
+.sponsored-section {
+  background: #f2f3f3;
+  padding: 2rem;
+  position: relative;
+}
+
+.sponsored-card {
+  background: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+.sponsored-image {
+  width: 300px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
