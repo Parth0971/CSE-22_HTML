@@ -1,0 +1,100 @@
+html {
+  font-size: clamp(14px, 0.85vw, 16px);
+}
+
+body {
+  background-color: #e3e6e6;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background: #131921;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  color: white;
+
+  min-height: 4.2rem;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  flex: 0 1 auto;
+  min-width: 13rem;
+}
+
+.logo {
+  width: 7.5rem;
+}
+
+.location {
+  display: flex;
+  gap: 0.4rem;
+}
+
+
+.search-bar {
+  display: flex;
+  flex: 1 1 20rem;
+  min-width: 15rem;
+  max-width: 68rem;
+  height: 2.8rem;
+  margin: 0 2rem;
+}
+
+.search-bar select {
+  background: #e6e6e6;
+  border: none;
+  padding: 0 0.5rem;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 80px;
+}
+
+.search-bar input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+}
+
+.search-bar button {
+  background: #febd69;
+  border: none;
+  padding: 0 1rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-size: 1.3rem;
+}
+
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex: 0 1 auto;
+  min-width: 5rem;
+}
+
+.language img {
+  width: 1.6rem;
+  height: auto;
+}
+
+.lang {
+  border: none;
+  color: white;
+  background-color: #131921;
+}
+.lang option {
+  color: black;
+  background-color: white;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
