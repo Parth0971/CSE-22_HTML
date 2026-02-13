@@ -501,3 +501,105 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.sponsored-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.sponsored-content {
+  flex: 1;
+}
+
+.sponsored-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.sponsored-price {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.current-price {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #565959;
+}
+
+.prime {
+  color: #007185;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.shop-btn {
+  background: #ffa41c;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.shop-btn:hover {
+  background: #f08804;
+}
+
+.sponsored-label {
+  position: absolute;
+  right: 2rem;
+  bottom: 0.8rem;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.amazon-live-section {
+  background: white;
+  margin: 1.5rem;
+  padding: 1.5rem;
+}
+
+.live-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.live-header h2 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.live-header a {
+  font-size: 0.9rem;
+  color: #007185;
+  text-decoration: none;
+}
+
+.live-content {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+
+.live-video {
+  flex: 0 0 420px;
+  position: relative;
+}
+
+.video-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 10px;
+}
